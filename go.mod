@@ -3,8 +3,9 @@ module github.com/juicedata/juicefs
 go 1.18
 
 require (
-	cloud.google.com/go/compute v1.7.0
-	cloud.google.com/go/storage v1.26.0
+	cloud.google.com/go/compute v1.23.1
+	cloud.google.com/go/compute/metadata v0.2.3
+	cloud.google.com/go/storage v1.36.0
 	github.com/Arvintian/scs-go-sdk v1.2.0
 	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v1.0.0
 	github.com/DataDog/zstd v1.5.0
@@ -24,7 +25,7 @@ require (
 	github.com/goccy/go-json v0.10.2
 	github.com/gofrs/flock v0.8.1
 	github.com/google/btree v1.1.2
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.4.0
 	github.com/hanwen/go-fuse/v2 v2.1.1-0.20210611132105-24a1dfe6b4f8
 	github.com/hashicorp/consul/api v1.15.2
 	github.com/hashicorp/go-hclog v1.5.0
@@ -72,13 +73,13 @@ require (
 	go.uber.org/zap v1.20.0
 	golang.org/x/crypto v0.17.0
 	golang.org/x/net v0.17.0
-	golang.org/x/oauth2 v0.7.0
-	golang.org/x/sync v0.2.0
+	golang.org/x/oauth2 v0.13.0
+	golang.org/x/sync v0.5.0
 	golang.org/x/sys v0.15.0
 	golang.org/x/term v0.15.0
 	golang.org/x/text v0.14.0
-	google.golang.org/api v0.94.0
-	google.golang.org/protobuf v1.30.0
+	google.golang.org/api v0.150.0
+	google.golang.org/protobuf v1.31.0
 	gopkg.in/kothar/go-backblaze.v0 v0.0.0-20210124194846-35409b867216
 	pgregory.net/rapid v0.5.3
 	xorm.io/xorm v1.0.7
@@ -89,11 +90,14 @@ require (
 	git.sr.ht/~jamesponddotco/pagecache-go v0.0.0-20230411150210-54b704d32088 // indirect
 	git.sr.ht/~jamesponddotco/recache-go v1.0.1 // indirect
 	git.sr.ht/~jamesponddotco/xstd-go v0.0.0-20230709232003-22489c0e7382 // indirect
+	github.com/google/s2a-go v0.1.7 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20231016165738-49dd2c1f3d0b // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20231030173426-d783a09b4405 // indirect
 )
 
 require (
-	cloud.google.com/go v0.102.1 // indirect
-	cloud.google.com/go/iam v0.3.0 // indirect
+	cloud.google.com/go v0.110.8 // indirect
+	cloud.google.com/go/iam v1.1.3 // indirect
 	git.apache.org/thrift.git v0.13.0 // indirect
 	git.sr.ht/~jamesponddotco/bunnystorage-go v0.3.0
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.3.0
@@ -136,16 +140,16 @@ require (
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
-	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b // indirect
-	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
+	github.com/golang/glog v1.1.2 // indirect
+	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/flatbuffers v1.12.1 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/google/readahead v0.0.0-20161222183148-eaceba169032 // indirect
-	github.com/googleapis/enterprise-certificate-proxy v0.1.0 // indirect
-	github.com/googleapis/gax-go/v2 v2.4.0 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.3.2 // indirect
+	github.com/googleapis/gax-go/v2 v2.12.0 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20181017120253-0766667cb4d1 // indirect
 	github.com/gorilla/handlers v1.5.1 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
@@ -242,14 +246,14 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
 	go.etcd.io/etcd/api/v3 v3.5.9 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.5.9 // indirect
-	go.opencensus.io v0.23.0 // indirect
+	go.opencensus.io v0.24.0 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
-	golang.org/x/xerrors v0.0.0-20220609144429-65e65417b02f // indirect
+	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20220810155839-1856144b1d9c // indirect
-	google.golang.org/grpc v1.48.0 // indirect
+	google.golang.org/genproto v0.0.0-20231016165738-49dd2c1f3d0b // indirect
+	google.golang.org/grpc v1.59.0 // indirect
 	gopkg.in/ini.v1 v1.57.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.3.1 // indirect
